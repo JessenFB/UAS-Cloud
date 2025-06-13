@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({
 app.use(cors());
 
 app.get('/', (req, res) => {
-    res.send('Hai, ini adalah REST API untuk aplikasi Fasum!')
+    res.send('Hai, ini adalah REST API untuk aplikasi Gym!')
 })
 
 app.post('/send-to-device', async (req, res) => {
